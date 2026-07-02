@@ -1,0 +1,587 @@
+# .GITIGNORE UNIVERSAL — Covers most projects and environments
+
+# OPERATING SYSTEM
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# EDITORS AND IDEs
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, GoLand, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# Vim / Neovim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+*_flymake.*
+/eshell/history
+/eshell/lastdir
+/elpa/
+*.rel
+/auto/
+.cask/
+dist/
+flycheck_*.el
+/server/
+.projectile
+.dir-locals.el
+/network-security.data
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.autotools
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.apt_generated/
+.cache-main
+.scala_dependencies
+.worksheet
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+
+# Android Studio
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+gen/
+lint/
+local.properties
+
+# ENVIRONMENT VARIABLES AND SECURITY
+
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+.envrc
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets/
+secret.json
+credentials.json
+service-account.json
+*_rsa
+*_rsa.pub
+*_ed25519
+*_ed25519.pub
+*.ppk
+auth.json
+config.secret.*
+.htpasswd
+vault-token
+
+# LOGS AND TEMPORARY FILES
+
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pid.lock
+*.tmp
+*.temp
+.tmp/
+.temp/
+tmp/
+temp/
+cache/
+.cache/
+
+# DEPENDENCIES AND PACKAGES
+
+# Node.js
+node_modules/
+jspm_packages/
+web_modules/
+bower_components/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Java / Kotlin / Scala
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+target/
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+lib/bundler/man/
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Go
+*.exe
+*.exe~
+*.test
+*.out
+vendor/
+go.sum
+
+# PHP / Composer
+vendor/
+composer.lock
+*.phar
+
+# Rust
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# C / C++
+*.o
+*.ko
+*.obj
+*.elf
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.su
+*.idb
+*.pdb
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# .NET / C#
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
+Generated\ Files/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuspec
+
+# BUILD TOOLS AND BUNDLERS
+
+# Generic build
+dist/
+build/
+out/
+output/
+public/build/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.vite/
+*.min.js
+*.min.css
+
+# Webpack
+.webpack/
+
+# Parcel
+.parcel-cache/
+
+# Rollup
+.rollup.cache/
+
+# esbuild
+.esbuild/
+
+# Turbo
+.turbo/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TESTING AND COVERAGE
+
+coverage/
+.nyc_output/
+.jest-cache/
+test-results/
+junit.xml
+*.lcov
+lcov.info
+playwright-report/
+playwright/.cache/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# DATABASE
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+dump.rdb
+*.sql
+!schema.sql
+!migrations/**/*.sql
+data/
+
+# DOCKER AND CONTAINERS
+
+.docker/
+docker-compose.override.yml
+*.dockerignore
+
+# INFRASTRUCTURE / CLOUD / IaC
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ansible
+*.retry
+
+# Pulumi
+.pulumi/
+
+# AWS
+.aws/
+sam-app/.aws-sam/
+
+# Serverless Framework
+.serverless/
+
+# MONOREPOS AND PACKAGE MANAGERS
+
+# npm
+package-lock.json
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# pnpm
+.pnpm-store/
+
+# Lerna
+lerna-debug.log
+
+# Rush
+common/deploy/
+common/temp/
+common/autoinstallers/*/.npmrc
+
+# DOCUMENTATION
+
+# Sphinx
+docs/_build/
+docs/api/
+
+# Jekyll / GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# MOBILE
+
+# React Native
+.expo/
+.expo-shared/
+ios/Pods/
+ios/build/
+android/build/
+android/app/build/
+android/.gradle/
+*.jks
+!debug.keystore
+!android/app/debug.keystore
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# MACHINE LEARNING / DATA SCIENCE
+
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+data/raw/
+data/processed/
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+mlruns/
+.mlflow/
+wandb/
+
+# MISCELLANEOUS
+
+# Compressed files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.tar
+*.zip
+
+# Auto-generated fonts (keep originals)
+*.ttf
+*.eot
+*.woff
+*.woff2
+
+# Storybook
+storybook-static/
+.storybook/public/
+
+# Sentry
+.sentryclirc
+
+# Chromatic
+chromatic-build/
+
+# Generated by i18n tools
+*.pot
+
+# Editor lock files
+*.lock~

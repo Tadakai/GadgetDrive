@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GadgetDrive</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_idle_sub">No image currently mounted</string>
+    <string name="status_working">Working\u2026</string>
+    <string name="status_working_sub">Running root script, please wait</string>
+    <string name="status_mounted">Mounted</string>
+    <string name="status_mounted_sub">Device is visible on your PC</string>
+    <string name="file_card_label">DISK IMAGE</string>
+    <string name="file_none_selected">Tap to select a file\u2026</string>
+    <string name="file_size_mib">%1$.1f MiB</string>
+    <string name="read_only_title">Read-only</string>
+    <string name="read_only_subtitle">Prevent the PC from writing to the image</string>
+    <string name="log_title">ACTIVITY LOG</string>
+    <string name="mount">Mount</string>
+    <string name="unmount">Unmount</string>
+    <string name="error_no_file">Select a disk image first</string>
+    <string name="error_file_not_found">Image file not found on device</string>
+    <string name="error_path_resolve">Could not resolve path \u2014 try a file from internal storage</string>
+    <string name="about_title">About GadgetDrive</string>
+    <string name="about_message">GadgetDrive turns your rooted Android device into a USB mass storage device, letting you boot ISO images directly on a PC.\n\nRequires root access.\n\nAuthor: Tadakai\nGitHub: github.com/tadakai/GadgetDrive\nLicense: GNU GPL v3</string>
+</resources>

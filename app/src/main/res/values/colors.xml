@@ -1,0 +1,8 @@
+<resources>
+    <color name="status_idle">#9E9E9E</color>
+    <color name="status_working">#FF9800</color>
+    <color name="status_mounted">#43A047</color>
+    <color name="log_background">#111318</color>
+    <color name="log_text">#DDEEFF</color>
+    <color name="ic_launcher_background">#1A6FD6</color>
+</resources>

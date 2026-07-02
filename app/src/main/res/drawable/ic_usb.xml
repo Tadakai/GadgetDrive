@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    USB symbol used as the icon on the Mount button.
+    All shapes expressed as <path> — VectorDrawable does not support <rect>.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Vertical stem -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M12,5 L12,19" />
+
+    <!-- Top horizontal bar -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M7,8 L17,8" />
+
+    <!-- Left arm -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M7,8 L7,12" />
+
+    <!-- Left terminal: filled square (path replaces rect) -->
+    <!-- left=5 top=12 right=9 bottom=15 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5,12 L9,12 L9,15 L5,15 Z" />
+
+    <!-- Right arm -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M17,8 L17,11" />
+
+    <!-- Right terminal: filled circle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M17,11 m-2,0 a2,2 0,1,0 4,0 a2,2 0,1,0 -4,0" />
+
+    <!-- Bottom connector ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M12,19 m-2.5,0 a2.5,2.5 0,1,0 5,0 a2.5,2.5 0,1,0 -5,0" />
+
+</vector>
